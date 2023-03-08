@@ -1,0 +1,1263 @@
+@charset "UTF-8";
+/************ Para movile  ************/
+
+
+.contenedor_padre{
+	left: 20px;
+}
+.contenedor_padre .menu_movile{
+	background-color: #005EB8;
+    border-color: #0E2E57;	
+    min-height: 0px;
+}
+.contenedor_padre .menu_movile .contenedor_menu_movile{
+    border-color: #005EB8;	
+}
+.contenedor_padre .menu_movile .boton_menu_movile{
+	background-color: #ddd;
+	margin: 0px;	
+}
+.menu_movile .contenedor_menu_movile>ul>li .boton_enlace{
+	color: #F2F7FC;
+}
+.contenedor_padre .menu_movile .contenedor_menu_movile>ul>li .boton_desplegable_interior{
+	background-color: #004A93;
+}
+.menu_movile .contenedor_menu_movile>ul>li>ul>li .sub_menu{
+	color: #F2F7FC !important;
+}
+
+
+/*--------  Para Cuando tenga Foco  -----------------*/
+
+.menu_movile .contenedor_menu_movile>ul>li .boton_enlace:focus{
+	background-color: #004A93 !important; 
+	color: #FFC600;
+}
+
+.menu_movile .contenedor_menu_movile>ul>li>ul>li .sub_menu:focus{
+	color: #FFC600 !important;
+}
+
+.botonera_movil{display: none;}
+.botonera_descktop{display: inline-block;}
+@media (max-width: 479px) {
+.botonera_movil{display: inline-block;}
+.contenedor_padre{left: 20px;}
+.botonera_descktop{display: none;}
+}
+/************ Para movile  ************/
+.icon_responsive{ width: 60px;
+				height: 60px;}
+
+
+@media (min-width: 480px) and (max-width: 1280px) {
+.labl-cargo{padding-left: 15px;}
+}
+
+.pdl-0-movil{}
+.margin-responsive-30{padding-left: 55px !important;}
+.caja_num_cambio{}
+.caja_monto_cotizacion{padding-left: 5px;}
+.tabla_detalle_chequera{padding-left: 10px; padding-right: 10px; padding-top: 0px; padding-bottom: 0px; border:none;}
+@media (max-width: 360px) {
+.tabla_detalle_chequera{padding-left: 0px !important; padding-right: 3px !important;}
+.pdl-0-movil{padding-left: 0px;}
+.margin-responsive-30{padding-left: 15px !important;}
+.panel-transferencias .panel-group .panel-heading .data-selected{
+	margin-left: 15px;
+}
+}
+@media (max-width: 500px) {
+.panel-transferencias .panel-group .panel-body .detalle-cuotas table{font-size: 10px; width: 290px;}
+#pago_tasa_monto_panel{font-size: 8px;}
+.panel-transferencias .main-title .transferencias-botones{font-size: 12px; position: initial !important;}
+.panel-transferencias .main-title .transacciones-botones{font-size: 12px; position: initial !important;}
+.modal-content-movil{width: 350px;}
+.modal-content-movil .modal-body #tabla_resultado{font-size: 8px;}
+.icon_responsive{ width: 40px;
+				height: 40px;}
+#pago_tasa_monto_panel{padding-left: 20px !important;}
+.panel-body .row-data-container #tbl-deposito-conf{font-size: 9px;}
+}
+@media (max-width: 360px) {
+.panel-transferencias .panel-group .panel-body .detalle-cuotas table{font-size: 8px; width: 250px;}
+.panel-transferencias .main-title .transferencias-botones{font-size: 9px; position: initial !important;}
+.panel-transferencias .main-title .transferencias-botones{font-size: 9px; position: initial !important;}
+.modal-content-movil{width: 300px;}
+}
+.data-selected .data #div-radio-padding{padding-left: 0px;}
+.icono_mas_table_list_chequera{padding-left: 11px;}
+
+#clave-transaccional2{display: none;}
+#gen-clave-transaccional2{display: none;}
+.cepep_clave_muestra{display: inline-block; padding-left: 30px; padding-right: 0px;}
+.cepep_clave_oculta{display: none; padding-left: 30px;}
+.pd-recep-clave{padding-left: 30px;}
+#check-recibir-clave-config{margin-left: 6px;}
+
+.pdl-resp{ padding-left: 10px;}
+@media (max-width: 767px) {
+.pdl-resp{ padding-left: 0px;}
+.caja_num_cambio{padding-left: 5px;}
+.caja_monto_cotizacion{margin-top: 5px;}
+}
+.my-panel-generico{}
+@media (max-width: 370px) {
+.my-panel-generico{padding-left: 0px !important; padding-right: 0px !important;}
+.icono_mas_table_list_chequera{padding-left: 2px !important; padding-right: 2px !important;}
+}
+@media (max-width: 500px) {
+#titular2{ min-width: 200px !important;}
+}
+@media (max-width: 370px) {
+.contenedor-iconos{    right: 20px;}
+}
+
+@media (max-width: 640px) {
+.cepep_clave_oculta{float: right; padding-left: 10px;}
+}
+@media (max-width: 1130px) {
+.cepep_clave_muestra{display: none;}
+.cepep_clave_oculta{display: inline-block;}
+}
+.linea_limites{}
+@media (min-width: 780px) and (max-width: 1023px){
+.linea_limites{padding-right: 20px;	}
+}
+@media (min-width: 1024px) and (max-width: 1279px){
+.linea_limites{padding-right: 30px;}
+}
+@media (min-width: 1280px) {
+.linea_limites{padding-right: 40px;	}
+}
+@media (max-width: 1280px) {
+#check-recibir-clave-config{margin-left: 1px;}
+}
+@media (max-width: 1024px){
+#check-recibir-clave-config{margin-left: 11px;}
+}
+.prestamo_aut_titulo{}
+#det1{
+	width: 50%;
+}
+.campo_disp_novil{	
+}
+.campo_disp_novil_pdt{	
+}
+.width_select_movil_rsp{
+	min-width: 130px;
+}
+@media (max-width: 660px) {
+.prestamo_aut_titulo{font-size: 27px;}	
+}
+@media (max-width: 641px) {
+.width_select_movil_rsp{width: 140px;}	
+}
+@media (max-width: 880px) {
+.campo_disp_novil{font-size: 12px;}
+}
+
+@media (max-width: 1280px) {
+.campo_disp_novil{vertical-align: top;}
+.campo_disp_novil_pdt{padding-top: 10px !important;}
+}
+
+@media (max-width: 720px) {
+#transferencias-agendadas{right: 185px; width: auto; padding-right: 2px;}
+#transacciones-guardadas{right: 5px; width: auto; padding-right: 2px;}
+}
+
+#panel-generic-responsive{padding-left: 10px; padding-right: 10px; padding-bottom: 5px;}
+
+@media (max-width: 625px) {
+#panel-generic-responsive{padding-left: 0px; padding-right: 0px; padding-bottom: 5px;}	
+#head-table-responsive1{padding-right:0px;}
+#head-table-responsive2{padding-right:0px;}
+#head-table-responsive3{padding-right:0px;}
+#head-table-responsive4{padding-right:0px;}
+#head-table-responsive5{padding-right:0px;padding-left:5px;}
+#head-table-responsive6{padding-right:0px;}
+#head-table-responsive7{padding-right:0px;}	
+#head-table-responsive8{padding-right:0px;}	
+#head-table-responsive9{padding-right:0px;padding-left:5px;}	
+}
+@media (max-width: 800px) {
+.saludo-txt{display: none;}
+}
+@media (max-width: 1030px) {
+#det1{	width: 80%;}	
+}
+@media (max-width: 640px) {
+#clave-transaccional2{display: inline-block; padding-top: 5px; padding-bottom: 5px;}
+#clave-transaccional{display: none;}
+}
+@media (max-width: 768px) {
+#clave-transaccional2{display: inline-block;}
+#clave-transaccional{display: none;}
+}
+@media (max-width: 991px) {
+#gen-clave-transaccional2{display: inline-block;}
+#gen-clave-transaccional{display: none;}
+}
+/*@media (max-width: 1475px) {
+#gen-clave-transaccional{font-size: 12px;}	
+#clave-transaccional{font-size: 12px;}
+}
+@media (max-width: 914px) {
+#gen-clave-transaccional{font-size: 10px;}	
+#clave-transaccional{font-size: 10px;}
+}
+@media (max-width: 670px) {
+#gen-clave-transaccional{font-size: 8px;}	
+#clave-transaccional{font-size: 8px;}
+#caja-generar-label-clave{padding-left: 2px; padding-right: 2px;}
+#caja-clave{padding-left: 0px; padding-right: 2px;}
+}*/
+@media (max-width: 640px) {
+#caja-interna-clave{padding-bottom: 0px; padding-top: 0px;}
+.pdtb-0{padding-bottom: 0px; padding-top: 0px;};
+}
+@media (max-width: 758px) {
+#caja-generar-label-clave{padding-left: 2px; padding-right: 2px;}
+#caja-clave{padding-left: 0px; padding-right: 2px;}
+}
+@media (max-width: 621px) {
+.cancelar-responsive{font-size: 12px;}	
+.confirmar-responsive{font-size: 12px;}
+}
+.mail-large{
+       max-width: 500px;
+	    overflow: hidden;
+	    display: inline-block;
+	    margin-top: 0px;
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+.mail-large{
+       max-width: 390px;
+}
+}
+@media (min-width: 1250px) and (max-width: 1280px) {
+.mail-large{
+       max-width: 470px;
+}
+}
+.pd-telefonos{
+padding-right: 15px;	
+}
+
+.nuevo-select{
+background-color: white;
+padding-left: 5px;
+padding-bottom:6px;
+padding-top:6px;
+font-size: 14px;
+border:1px solid #ccc;
+border-radius: 4px;
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+	.mail-large{
+		max-width: 275px;
+	    overflow: hidden;
+	    display: inline-block;
+	    margin-top: 0px;
+	}
+}
+@media (min-width:640px) and (max-width: 699px) {
+	.mail-large{
+		max-width: 360px;
+	    overflow: hidden;
+	    display: inline-block;
+	    margin-top: 0px;
+	}
+}
+@media (min-width:700px) and (max-width: 767px) {
+	.mail-large{
+		max-width: 480px;
+	    overflow: hidden;
+	    display: inline-block;
+	    margin-top: 0px;
+	}
+}
+@media (min-width:768px) and (max-width: 869px) {
+	.mail-large{
+		max-width: 430px;
+	    overflow: hidden;
+	    display: inline-block;
+	    margin-top: 0px;
+	}
+}
+@media (max-width: 1050px) {
+#cotizacion-moneda{max-width: 130px; min-height: 40px;}
+}
+
+@media (max-width: 870px) {
+.pd-telefonos{padding-left: 5px; padding-right: 5px;}
+.nuevo-select{font-size: 10px;}
+#titulo-necgrita-telefono{font-size: 12px; padding-left: 0px;}
+#titulo-sub-telefono{font-size: 10px;}
+}
+
+#guion{vertical-align: super;}
+#titular2{display: inline-block; width: 95%;}
+@media(min-width: 1198px){
+	#nro-cuenta-sipap{ text-align: right;}
+}
+@media(max-width: 991px){
+	#imp-concepto{padding-left: 0px !important;}
+}
+#contenedor_destino .radio #caja-valor #disponible{padding-left: 0px;}
+@media (max-width: 767px) {
+.data #titular2{padding-left: 18px;}
+.data #tipo-moneda2{padding-left: 18px;}
+}
+@media (max-width: 1480px) {
+#contenedor_destino .radio .reg-content #caja-valor{display: block;}
+#contenedor_destino .radio .reg-content #disponible{padding-left: 0px;}
+}
+
+@media (max-width: 1198px) {
+#imp-cotizacion{padding-left: 0px;}
+}
+
+@media (min-width: 1198px) {
+#disponible{padding-left: 50px;}
+
+}
+@media (max-width: 767px) {
+#caja-valor{padding-left: 0px;}	
+#radio_lc{margin-top: 10px !important;}
+#contenedor-tiempo-tranferencia{margin-left: 20px;}
+#imp-contizacion{padding-left: 0px;}
+}
+
+@media (max-width: 767px) {
+#guion{display: none;}
+#caja-titular{padding-left: 20px; height: 20px !important;}
+}
+@media (max-width: 767px) {
+	#iporte-transferir-otro-titular{padding-left: 0px;}
+	#direccion-destino-sipap{padding-right: 0px !important;}
+	#imp-select-motivo{padding-left: 0px ;}
+
+#caja-moneda{padding-left: 0px;}
+#caja-titular{padding-left: 0px;}
+}
+@media (max-width: 700px) {
+.row-data-container #pago-consulta-tbl-transf-agendadas{font-size: 9px;}
+.row-data-container #tbl-deposito-conf{font-size: 11px;}
+.row-data-container #transferencia-consulta-tbl-transf-agendadas{font-size: 10px;}
+.row-data-container #facturas-consulta-tbl-transf-agendadas{font-size: 9px;}
+}
+
+@media (max-width: 500px) {
+.row-data-container .tbl-transf-agendadas{font-size: 10px;}
+.row-data-container #facturas-consulta-tbl-transf-agendadas{font-size: 6px;}
+.row-data-container #pago-consulta-tbl-transf-agendadas{font-size: 7px;}
+.row-data-container #transferencia-consulta-tbl-transf-agendadas{font-size: 6px;}
+.row-data-container #tbl-transf-agendadas{font-size: 5px;}
+}
+@media (max-width: 370px) {
+.row-data-container .tbl-transf-agendadas{font-size: 9px;}
+.row-data-container #facturas-consulta-tbl-transf-agendadas{font-size: 4px;}
+.row-data-container #pago-consulta-tbl-transf-agendadas{font-size: 5px;}
+.row-data-container #transferencia-consulta-tbl-transf-agendadas{font-size: 4px;}
+.row-data-container #tbl-transf-agendadas{font-size: 4px;}
+}
+
+@media (max-width: 830px) {
+.row-data-container #tbl-transf-agendadas{font-size: 8px;}
+.generic-content #respon-container-fluid{padding-left: 1px; padding-right: 1px;}
+}
+
+@media (max-width: 500px) {
+.row-data-container #tbl-transf-agendadas{font-size: 5px;}
+}
+@media (max-width: 370px) {
+.row-data-container #tbl-transf-agendadas{font-size: 4px;}
+}
+
+@media (max-width: 800px) {
+#cuenta_destino_seleccionada #datos_cuenta_destino_seleccionada #caja-valor #disponible{padding-left: 18px;}
+}
+
+@media (min-width: 767px) {
+	
+	#cuenta_destino_seleccionada #datos_cuenta_destino_seleccionada #caja-valor #disponible{padding-left: 5px;}
+	#contenedor_destino .radio #caja-valor #disponible{padding-left: 3px;}
+	#contenedor_destino .radio #caja-moneda #tipo-moneda2{padding-left: 3px;}
+	#caja_dos #monto #transf_internas_monto_panel .step-form-elements #cotizacion{padding-left: 25px;}
+}
+@media (max-width: 900px) {
+	#mi-btn-responsive{position: relative;}
+}
+@media (min-width:767px) and (max-width: 991px) {
+#registo-extracto-tarjeta #caja-moneda #tipo-moneda2 { padding-left: 20px; }
+}
+@media (max-width: 700px) {
+	.titulo-usuario { font-size: 12px !important;}
+	.panel-transferencias .step .title .botonera-header-2{position: relative;}
+	.btn-header{width: 30%; padding-left: 0px;}
+	//#transferencias-agendadas{right: 200px;}
+	.title-transferencias{font-size: 20px; margin-right: 5px;}	
+}
+
+@media (min-width: 700px) and (max-width: 1000px){
+	.etiqueta{ margin-top: 30px !important;}
+	.dato-1{ margin-top: 30px !important;}
+}
+
+@media (min-width: 1022px) and (max-width: 1220px) {
+	.tabla2-responsive{width: 59% !important;}
+}
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 639px){
+	.botonera-header-title{ display: block; margin-top: 40px; }
+	.botonera-header-title #transferencias-agendadas{ top:55px; }
+	.botonera-header-title #transferencias-guardadas{ top:55px; }
+	.hidden-xs{display: none;}
+	.contenedor-iconos{
+		position: relative;
+		right:20px;
+		top:90px;}
+	.contenedor-iconos .header-icon { font-size: 1.4em;	}
+	.saludo-txt{ font-size: 1em; left: 20px; top: 90px;}
+	.dato-acceso{font-size: 10.5px}
+	.nav-custom{ left:10px; top:170px;}
+	.nav-custom .nav-pills>li>a{ font-size: 0.75em; padding:10px 6px;  }
+	.nav-custom .nav-pills>li{ margin-right: 1px; width: auto; }
+	#transferencias-editar{width: 106px; }
+	.panel-yellow .btn-transferencias{margin-right: 0px; font-size: 1em !important; }
+	.panel-transferencias .panel-group .panel-body .ml-20 span.label-disponible{min-width: 0px; width: auto; font-size: 0.9em;}
+	.panel-transferencias .panel-group .panel-body .ml-20 span.tipo-moneda{min-width: 0px; width: auto; font-size: 0.9em; margin-left: 40px;}
+	.icono-credito {  display: block;
+	  height: auto;
+	  width: auto;
+	  zoom: 50%;
+	  margin-left: 0px;
+	  position: absolute;}
+	  .icono-cuenta-detalle-03{display: block;
+	  height: auto;
+	  width: auto;
+	  zoom: 50%;
+	  margin-left: 0px;
+	  position: absolute;}
+
+	.box-products{
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+	}
+
+	.box-products h1{  
+		margin-top: 6px; 
+		margin-left: 46px !important;
+		font-size: 0.9em;
+		position: relative;
+		display: block;
+		width: auto
+	}
+
+	.box-products h2{  
+		margin-top: 3px;
+		margin-bottom: 5px;
+		margin-left: 46px !important;
+		font-size: 0.8em;
+		display: block;
+		width: auto;
+		position: absolute;
+	}
+	.box-products .det-1 span.etiqueta {
+		margin-top: 37px;
+	  	width: auto;
+	  	display: inline-block;
+	  	margin-left: 46px;
+	  	font-size: 1em;
+	}
+	.box-products .det-1 span.dato-1{
+		display: inline-block;
+	  	margin-top: 37px;
+	  	width: auto;
+	   	margin-left: 20px;
+	   	font-size: 1em;
+	   	float:left;
+	}
+	.box-products .box-products-user-data { position: absolute; top:0px; }
+	/*
+	.box-products .box-products-user-data span.etiqueta{ margin-top: 30px; }
+	.box-products .box-products-user-data span.dato-1{ margin-top: 30px; margin-left: 20px; float:left; }
+	*/
+	.box-products .box-products-user-data .det-disabled span.etiqueta{ margin-top: 30px; }
+	.box-products .box-products-user-data .det-disabled span.dato-1{ margin-top: 30px; margin-left: 20px; float:left; }
+
+	.box-products a.btn-toggle{ z-index: 999; top: 48px; right: 5px; }
+
+	.hidden-xs{display: none;}
+	.iconotable{margin-left: 284px; top: -9px; zoom:94%;}
+	.img-responsive{ width: 100%; display: inline-block; position: relative !important;}
+	/*.box-avisos{position: absolute;}*/
+	#acciones{position: absolute;right: 0px; top:10px;}
+	table.box-detalles tr td{  font-size: 0.83em;}
+	table.box-detalles tr th {  font-size: 0.83em;}
+	.acciones{margin-top: 20px !important; }
+	.panel-transferencias .panel-group .panel-generico .contenedor-radio .radio span.titular{min-width: 0px; width: 95%;}
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda, .panel-transferencias .panel-group .data span.tipo-moneda{margin-left: 0px;}
+	.form-control{margin-top: 0px;}
+	.cheque-gerencia .panel-group .panel-body .radio span.tipo-moneda, .panel-transferencias .panel-group .data span.tipo-moneda{margin-left: 0px; margin-right: 45px;}
+
+	.panel-transferencias .panel-group .panel-body .radio span.label-disponible,
+	.panel-transferencias .panel-group .data span.label-disponible
+	{
+		display: inline-block;
+		min-width: 160px;
+		width: 160px;
+		font-weight: normal;
+		margin-left: 0px; 
+	}
+	.panel-yellow h3{font-size: 1.5em;}
+	#mdlResult .modal-dialog{width: auto; }
+	.mdlContainer .modal-dialog{width: auto;}
+	.row-data p.step-caption{line-height: 23px; font-size: 0.9em;}
+	.row-data .pdl-frmModal{  margin-top: 3px;}
+	.modal-title{text-align: center;}
+	.center-block{  margin-top: 17px; margin-bottom: 15px;}
+	.modal-pagos-02 b{font-size: 0.8em;}
+	.detalle-03 .row{margin-bottom: 60px;}
+	.accion-detalle-03 .btn-classic{width: 126%;margin-left: -53px;margin-top: 87px;}
+	table.box-det-movimientos tr td{padding: 6px 21px 9px 0px;}
+	.panel-transferencias .panel-group .panel-heading .data label span{font-size: 0.9em;}
+	.pagos-02 h4{margin-left: 0px !important;}
+	.mdlContainer .modal-header h4.sm{font-size: 1.2em;}
+	.btn-bottom-yellow{padding: 10px;font-size: 8px;}
+	.mdlContainer .modal-body .botonera .btn-transferencias{  padding: 10px;font-size: 8px; margin: auto;}
+	.mdlContainer .modal-body .botonera{margin:0px;}
+	.mdlContainer .modal-header h4{margin-left: -6px;}
+	#mdlResult .modal-body .botonera .btn-transferencias{margin: 0px; padding: 11px;font-size: 14px;}
+	#mdlResult .modal-body .botonera{margin: 0px;}
+	#mdlResult .modal-header h4{margin-left: -2px;}
+	
+	.btn-group > .btn:first-child{margin-left: 0px;}
+	.panel-transferencias .panel-group .panel-body .tr .fw{ 
+		width: 100% !important; 
+		margin-left: 0px; 
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.panel-transferencias .panel-group .panel-body .cheque-gerencia-01 span.label-disponible,
+	.panel-transferencias .panel-group .data span.label-disponible{min-width: 180px !important;}
+	.cheque-gerencia{margin-left:0px;margin-right: -62px;}
+	.consulta-chequera-03{font-size: 0.7em;}
+	.panel-transferencias .step .title .botonera-header-2{position: relative;}
+	.title-transferencias{zoom:80%;}
+	.btn-header{zoom:96%;}
+	.movil-smartphone-01{margin-top: 30px; height: auto;}
+	.movil-smartphone{width: auto !important; margin-top: 34px; margin-left: 126px;}
+	.picker{margin-top: 0px !important}
+	.control-label{text-align: left !important;}
+
+	/* carlosm 20062015 */
+	.validate-alert{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements { margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdr-10{ padding-right: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdl-10{ padding-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .form-group{/* padding-left: 0px !important;*/ }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .btn-group{ margin-top: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .disclaimer{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdl-70{ padding-left: 0px !important; }
+	.control-label{ padding-left: 0px !important; }
+	.selectpicker{width: 100% !important; }
+	
+	
+	
+	.panel-transferencias .panel-group .panel-body .radio span.label-disponible,
+	.panel-transferencias .panel-group .panel-body .radio span.value-disponible{
+		display: inline-block;
+		min-width: 0px;
+		width: auto;
+	}
+	.panel-transferencias .panel-group .panel-body .radio span.nrocuenta,
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda,
+	.panel-transferencias .panel-group .panel-body .radio span.titular{
+		display: inline-block;
+		min-width: 200px;
+		width: 95%px;
+	}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio { /*margin-left: 20px !important;*/	}
+	.servicios-box{ margin-bottom: 5px;}
+	.panel-transferencias .panel-group .panel-heading .data-selected { margin-left: 50px; }
+	.panel-transferencias .panel-group .panel-heading .data-selected .data .form-group{ margin-bottom: 0px; }
+	#nis{ width: 100%; }
+	.security-pin .form-control{
+		margin-top: 5px !important;
+		margin-bottom: 5px !important; 
+	}
+	.security-pin .form-group{
+		margin-bottom: 0px;
+	}
+	.panel-transferencias .panel-group .panel-heading .data label{
+		overflow: hidden;
+	}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label {margin-bottom: 15px;}
+	.panel-transferencias .panel-group .panel-body .mw{ width: 100% !important; }
+	.panel-transferencias .panel-group .data span.label-concepto-confirm {font-size: 0.9em;}
+	.msg-disabled{ font-size: 0.8em; }
+	.box-products-icon{ zoom:80%; }
+	.box-products-icon img{margin-left: 10px;}
+	.botonera-header-2 .btn-transferencias{ 
+		-moz-font-size:1em; 
+		font-size: 0.80em;
+	}
+
+	.control-group .form-control{margin-bottom: 5px; }
+	.control-group .selectpicker{ margin-bottom: 5px; }
+	.control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important; }
+	.control-group {text-align: left!important;}
+	.control-group .pdl-10{ padding-left: 0px !important; }
+	
+	.panel-transferencias .panel-group .panel-body .contenedor-radio{ padding-right: 0px; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important; }
+	.ml-30{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio .monto-tarjeta{ display: inline-block; width: auto;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{ margin-top: 3px !important;}
+	tr.det td.etiquetas { min-height: 120px; height: 110px;}
+	.show-xs{ display:inline-block; }
+	.tbl-movil-smartphone tbody tr td,.tbl-movil-smartphone thead tr th{ font-size: 0.75em;}
+	.tbl-movil-smartphone tbody tr td .form-control{ width: 100% !important; }
+	.tbl-movil-smartphone tbody tr td .btn-dropdown{ width: 60px !important; }
+	#mdlSaved .modal-dialog{width:auto;}
+	.panel-transferencias .panel-group .panel-body .detalle-cuotas table{width: 385px;}
+	.row-data-checkbox label{font-size: 0.85em;}
+	.row-data-radio label{font-size: 0.85em;}
+}
+
+
+@media (min-width: 640px) and (max-width: 767px){
+	.botonera-header-title #transferencias-agendadas{ top:20px; right:175px; font-size: 0.75em; }
+	.botonera-header-title #transferencias-guardadas{ top:20px; font-size: 0.75em; }
+	.hidden-xs{display: none;}
+	#acciones{position: absolute;right: 5px; top:10px;}
+	.contenedor-iconos{
+		position: relative;
+		right:40px;
+		top:100px;
+	}
+	.contenedor-iconos .header-icon { font-size: 1.4em;	}
+	.saludo-txt{ top: 100px; }
+	.nav-custom{ left:20px; top:175px;}
+	.nav-custom .nav-pills>li>a{ font-size: 0.9em; }
+	.nav>li>a{ padding:10px 10px; }
+	.nav-custom .nav-pills>li{ margin-right: 5px; width: auto; }
+	.pdl-20{padding-left: 0px !important;}
+	.security-pin{margin-right: 10px;}
+	.security-pin .form-group{ margin-bottom: 0px; }
+	.security-pin .form-control{ width: auto; display: inline-block; }
+	.form-control{margin-top: 0px;}
+	.mdlContainer .modal-dialog{  width: auto; line-height: 20px;}
+	.row-data p.step-caption{line-height: 20px;font-size: 1em;}
+	.modal-mis-datos-02 p.step-caption{line-height: 38px; font-size: 1em;}
+	.pagos-02 p.step-caption {line-height: 38px; font-size: 1em;}
+	#mdlResult .modal-dialog{width: auto; }
+	.modal-prestamos-dinamicos-03 p.step-caption{line-height: 38px; font-size: 1em;}
+	.modal-title{text-align: center;}
+	.center-block{  margin-top: 17px; margin-bottom: 15px;}
+	.mdlContainer .modal-header h4.sm{margin-left: 26px; font-size: 1.4em;} 
+	.row label.pdl-0{margin-left: 20px;}
+	#mdlResult .modal-header h4{margin-left: 15px;}
+	#mdlResult .modal-body .botonera{margin: 0px;}
+	.btn-group>.btn:first-child{margin-left: 0px;}
+	.panel-transferencias .panel-group .panel-body .fw{  width: 100% !important; margin-left: 0px;}
+	.panel-transferencias .panel-group .panel-body .radio span.titular, .panel-transferencias .panel-group .data span.titular{display: inline-block;}
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda, .panel-transferencias .panel-group .data span.tipo-moneda{display: block;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{  margin-top: 3px !important;}
+	.cheque-gerencia{margin-left: -40px;}
+	.acciones{margin-top: 20px !important;}
+
+	/* carlosm 20062015 */
+	.control-label{text-align: left !important;}
+
+	.validate-alert{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements { /*margin-left: 0px !important;*/ }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdr-10{ padding-right: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdl-10{ padding-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .form-group{ /*padding-left: 0px !important;*/ }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .btn-group{ margin-top: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .disclaimer{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdl-70{ padding-left: 0px !important; }
+	.control-label{ padding-left: 0px !important; }
+	.selectpicker{width: 100% !important; }
+	
+	.panel-transferencias .panel-group .panel-body .radio span.nrocuenta,
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda,
+	.panel-transferencias .panel-group .panel-body .radio span.label-disponible,
+	.panel-transferencias .panel-group .panel-body .radio span.value-disponible{
+		display: inline-block;
+		min-width: 0px;
+		width: auto;
+	}
+	.panel-transferencias .panel-group .panel-body .radio span.titular{
+		display: inline-block;
+		min-width: 95%;
+	}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio { /*margin-left: 20px !important;*/}
+	.panel-transferencias .panel-group .panel-generico .contenedor-radio .radio span.titular{ min-width: 0px; width: 95%; }
+	.servicios-box{ margin-bottom: 5px;}
+	.panel-transferencias .panel-group .panel-heading .data-selected { margin-left: 50px; }
+	.panel-transferencias .panel-group .panel-heading .data-selected .data .form-group{ margin-bottom: 0px; }
+	#nis{ width: 100%; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .cheque-gerencia-01{ margin-left: 10px !important; }
+	
+	.panel-transferencias .step .title h3{ zoom:90%; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label {margin-bottom: 15px;}
+
+	.box-products{
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+	}
+
+	.box-products h1{  
+		margin-top: 0px; 
+		margin-left: 66px !important;
+		//font-size: 1em !important;
+		position: relative;
+		display: block;
+		width: auto
+	}
+
+	.box-products h2{  
+		margin-top: 3px;
+		margin-bottom: 5px;
+		margin-left: 66px !important;
+		font-size: 0.8em !important;
+		display: block;
+		width: auto;
+		position: absolute;
+	}
+	
+	.box-products .box-products-icon{ zoom:80%; margin-bottom: 20px;}
+	.box-products .box-products-user-data { position: absolute; top:10px; }
+	.box-products .box-products-user-data span.etiqueta{ margin-top: 30px; }
+	.box-products .box-products-user-data span.dato-1{ margin-top: 30px; margin-left: 20px; float:left; }
+	.box-products a.btn-toggle{ z-index: 999; top:45px; right: 10px;}
+	.icono-credito {
+	  display: block;
+	  height: auto;
+	  width: auto;
+	  zoom: 70%;
+	  margin-left: 0px;
+	  position: absolute;
+	}
+	.box-products .det-1 span.etiqueta {
+	  margin-top: 30px;
+	  width: auto;
+	  display: inline-block;
+	  margin-left: 66px;
+	}
+	.box-products .det-1 span.dato-1 {
+	  display: inline-block;
+	  margin-top: 30px;
+	  width: auto;
+	  margin-left: 70px;
+	}
+	.box-products-icon{ zoom:90%; }
+	.box-products-icon img{margin-left: 10px;}
+	.control-group .form-control{margin-bottom: 5px; }
+	.control-group .selectpicker{ margin-bottom: 5px; }
+	.control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important; }
+	.control-group {text-align: left!important;}
+	.control-group .pdl-10{ padding-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important; }
+	.ml-30{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio .monto-tarjeta{ display: inline-block; width: auto;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{ margin-top: 3px !important;}
+	.step-form-elements .tarjetas .radio span.tipo-moneda{ min-width: 200px !important;}
+	.panel-transferencias .panel-group .panel-body .tarjetas .radio label input[type=radio]{ margin-top: 8px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .with-input label input[type=radio]{ margin-top: 10px !important;}
+	tr.det td.etiquetas { min-height: 120px; height: 110px;}
+	.botonera-header-2 .btn-transferencias{ padding:6px 8px; }
+	.show-xs{ display:inline-block; }
+	.tbl-movil-smartphone tr td .form-control{ width: 100% !important; }
+	#mdlSaved .modal-dialog{width:auto;}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+	.hidden-xs{display: none;}
+	.contenedor-iconos{
+		position: relative;
+		right:20px;
+		top:108px;
+	}
+	.saludo-txt{ top: 108px; left: 21px;}
+	.contenedor-iconos .header-icon{font-size: 1.5em;}
+	.dato-acceso{font-size: 11px;}
+	.nav-custom{ left:16px; top:175px;}
+	.nav>li>a{padding: 10px 17px;}
+	.nav-custom .nav-pills>li{ margin-right: 8px; width: auto;}
+	.security-pin{margin-right: 10px;}
+	.pdl-20{padding-left: 0px !important;}
+	.navbar-master{margin: 14px;}
+	.modal-title{text-align: center;}
+	.center-block{  margin-bottom: 12px; margin-top: 22px;}
+	.modal-header h4.sesion .modal-title{text-align: center;}
+	.tarjeta-01-780px{margin-left: 210px ;}
+	.reimpresion-tarjeta label.pdl-0{position: absolute;width: auto;margin-left: 25px;}
+	#mdlResult .modal-header h4{margin-left: 4px;}
+	.cheque-gerencia{margin-left: -40px;}
+	.mdlContainer .modal-header h4{margin-left: 0px;}
+	
+	.panel-transferencias .panel-group .panel-body .step-form-elements .pdl-70{ padding-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda{ display: inline-block;	}
+	.panel-transferencias .panel-group .panel-body .radio span.label-disponible,
+	.panel-transferencias .panel-group .panel-body .radio span.value-disponible{
+		display: inline-block;
+		min-width: 0px;
+		width: auto;
+	}
+	.panel-transferencias .panel-group .panel-body .radio span.nrocuenta,
+	.panel-transferencias .panel-group .panel-body .radio span.titular{
+		display: inline-block;
+		min-width: 0px;
+		width: 95%;
+	}
+	.panel-transferencias .panel-group .panel-body .radio span.nrocuenta{ width: 200px; }
+	.panel-transferencias .panel-group .panel-body .radio span.titular{ width: 95%; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio { /*margin-left: 30px;*/ }
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda{ width: 220px; min-width: 200px; }
+	.panel-transferencias .step .title h3{ zoom:90%; }
+	.panel-transferencias .panel-group .panel-heading .data label span{ min-width: 0px; display: inline-block;}
+	.panel-transferencias .panel-group .panel-heading .data label span.titular{ min-width:0px; width: 95%; display: inline-block; vertical-align: baseline;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label {margin-bottom: 15px;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio {margin-right: 5px !important; margin-left: 0px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio label input[type="radio"]{margin-top: -3px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio label {margin-bottom: 0px;}
+	.panel-transferencias .panel-group .panel-body .step-form-elements{ margin-left: 0px; }
+
+	.box-products{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.box-products h1{  
+		margin-top: 0px; 
+		margin-left: 70px !important;
+		font-size: 1em;
+		position: relative;
+		display: block;
+		width: auto
+	}
+
+	.box-products h2{  
+		margin-top: 3px;
+		margin-bottom: 5px;
+		margin-left: 70px !important;
+		font-size: 0.9em;
+		display: block;
+		width: auto;
+		position: absolute;
+	}
+	.box-products .det-1 span.etiqueta {
+		margin-top: 50px;
+	  	width: auto;
+	  	display: inline-block;
+	  	margin-left: 70px;
+	}
+	.box-products .det-1 span.dato-1{
+		display: inline-block;
+	  	margin-top: 50px;
+	  	width: auto;
+	   	margin-left: 70px;
+	}
+	.box-products .box-products-icon{ zoom:85%; margin-bottom: 20px; margin-left: 10px; }
+	.box-products .box-products-user-data { position: absolute; top:10px; }
+	.box-products .box-products-user-data span.etiqueta{ margin-top: 35px; }
+	.box-products .box-products-user-data span.dato-1{ margin-top: 35px; margin-left: 20px; float:left; }
+	.box-products a.btn-toggle{ z-index: 999; }
+	.icono-credito {
+	  display: block;
+	  height: auto;
+	  width: auto;
+	  zoom: 70%;
+	  margin-left: 70px;
+	  margin-top: 20px;
+	  position: absolute;
+	}
+	.box-products .det-1 span{
+		height: auto;
+	  	width: auto;
+	  	margin-left: 70px;
+	  	margin-top: 20px;
+	}
+	.box-products .det-1 span.etiqueta {
+	  display: inline-block;
+	}
+	.box-products .det-1 span.dato-1 {
+	  display: inline-block;
+	}
+	.generic-content .btn-classic {width: 100%;}
+	#acciones{position: absolute;right: 5px;}
+	.vista-detalle #acciones{position: absolute;right: 0px; top:0px;}
+	.acciones{position: absolute;right: 10px; top:45px;}
+	.icono-credito{zoom: 80%;}
+	.msg-disabled{ font-size: 1em; }
+	.form-inline .radio input[type="radio"]{ margin-right: 5px !important;}
+	.control-group .form-control{margin-bottom: 5px; }
+	.control-group .selectpicker{ margin-bottom: 5px; }
+	.control-group .radio{ display: inline-block !important; margin-right:30px !important; }
+	.control-group {text-align: left!important;}
+	.control-group .pdl-10{ padding-left: 0px !important; }
+	/*.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important; }*/
+	.ml-30{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio .monto-tarjeta{ display: inline-block; width: auto;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{ margin-top: 0px !important;}
+	.step-form-elements .tarjetas .radio span.tipo-moneda{ min-width: 200px !important;}
+	.panel-transferencias .panel-group .panel-body .tarjetas .radio label input[type=radio]{ margin-top: 8px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio{ /*margin-left: 20px !important;*/ }
+	
+	.show-xs{ display:inline-block; }
+	.tbl-movil-smartphone tbody tr td .form-control{ width: 100% !important; }
+	#mdlSaved .modal-dialog{width:90%;}
+	.row-user-data .show-xs{display: none;}
+	.row-data-radio label{font-size: 0.85em;}
+
+}
+@media (min-width: 1024px) and (max-width: 1279px){
+	.panel-transferencias .panel-group .panel-body .radio span.nrocuenta,
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda,
+	.panel-transferencias .panel-group .panel-body .radio span.label-disponible,
+	.panel-transferencias .panel-group .panel-body .radio span.value-disponible{
+		display: inline-block;
+		min-width: 0px;
+		
+	}
+	.panel-transferencias .panel-group .panel-body .radio span.titular,
+	.panel-transferencias .panel-group .panel-generico .contenedor-radio .radio span.titular{
+		display: inline-block;
+		min-width: 0px;
+		width: 95%;
+	}
+	.panel-transferencias .panel-group .panel-heading .data-selected .data .form-group{ width: 100%; display:block; margin-bottom: 0px; }
+	.panel-transferencias .panel-group .panel-heading .data label span{ min-width: 0px;  display: inline-block;}
+	.panel-transferencias .panel-group .panel-heading .data label span.titular{ min-width:0px; width: 95%; display:inline-block; vertical-align: baseline;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label {margin-bottom: 15px;}
+	#acciones{position: absolute;right: 0px; top: 0px;}
+	.vista-detalle #acciones{position: absolute;right: 0px; top:0px;}
+	.acciones{position: absolute;right: 0px; top:35px;}
+	.vista-detalle .acciones{position: absolute;right: 0px; top:45px;}
+	.icono-credito{zoom: 80%;}
+	
+	
+	.box-products .det-1 span {
+	  display: inline-block;
+	  margin-top: 30px !important;
+	  width: auto;
+	  margin-left: 80px;
+	  font-size: 1em;
+	}
+
+	.box-products .det-1 span.etiqueta {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  padding-right: 10px; 
+	  width: auto;
+	  margin-left: 0px;
+	  margin-top: 40px !important;
+	}
+
+	.box-products .det-1 span.dato-1 {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  width: auto;
+	  margin-left: 0px;
+	  margin-top: 40px !important;
+	}
+
+	.box-products h1{  
+		margin-top: 0px; 
+		margin-left: 20px !important;
+		font-size: 1em;
+		position: relative;
+		display: block;
+		width: auto;
+		padding-right: 10px;
+	}
+	.box-products .det-1,
+	.box-products .det-disabled{
+		position: absolute;
+		left: 20px !important;
+		top:-3px !important;
+	}
+
+
+	.box-products h2{  
+		margin-top: 3px;
+		margin-bottom: 5px;
+		margin-left: 20px !important;
+		font-size: 1em;
+		display: block;
+		width: auto;
+		position: absolute;
+	}
+	.box-products .box-products-icon{ zoom:90%; margin-left: 0px; margin-bottom: 10px; }
+	.form-inline .radio input[type="radio"]{ margin-right: 5px !important;}
+	.control-group .form-control{margin-bottom: 5px; }
+	.control-group .selectpicker{ margin-bottom: 5px; }
+	.control-group .radio{ display: inline-block !important; margin-right:30px !important; }
+	.control-group {text-align: left!important;}
+	.control-group .pdl-10{ padding-left: 0px !important; }
+	.ml-30{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio .monto-tarjeta{ display: inline-block; width: auto;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{ margin-top: 3px !important;}
+	.step-form-elements .tarjetas .radio span.tipo-moneda{ min-width: 200px !important;}
+	.panel-transferencias .panel-group .panel-body .tarjetas .radio label input[type=radio]{ margin-top: -4px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio span.tipo-moneda{ display: inline-block;	}
+	.row-data-radio label{font-size: 0.85em;}
+}
+@media (min-width: 1024px) and (max-width: 1365px){
+
+	.contenedor-iconos{
+		position: relative;
+		right:20px;
+		top:115px;
+	}
+	.saludo-txt{ top: 108px; left: 21px;}
+	.contenedor-iconos .header-icon{font-size: 1.9em;}
+	.dato-acceso{font-size: 13px;}
+	.nav-custom{ left:16px; top:180px;}
+	.nav>li>a{padding: 9px 17px;}
+	.nav-custom .nav-pills>li{ margin-right: 10px; width: auto;}
+	.pdl-20{padding-left: 0px !important;}
+	.navbar-master{margin: 14px;}
+	.modal-title{text-align: center;}
+	.panel-transferencias .panel-group .panel-heading .data-selected .data .form-group{ width: 100%; display:block; margin-bottom: 0px; }
+	.panel-transferencias .panel-group .panel-heading .data label span{ min-width: 0px; /*width: auto !important;*/ display: inline-block;}
+	.panel-transferencias .panel-group .panel-heading .data label span.titular{ min-width:0px; width: 95%; display:inline-block; vertical-align: baseline;}
+	#acciones{position: absolute;right: 5px; top: 15px;}
+	.acciones{position: absolute;right: 0px; top:35px;}
+	.vista-detalle #acciones{position: absolute;right: 5px; top: 0px;}
+	.vista-detalle .acciones{position: absolute;right: 0px; top:45px;}
+	.form-inline .radio input[type="radio"]{ margin-right: 5px !important;}
+	.control-group .form-control{margin-bottom: 5px; }
+	.control-group .selectpicker{ margin-bottom: 5px; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio {margin-right: 20px !important;}
+	.control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important;}
+	.control-group {text-align: left!important;}
+	.control-group .pdl-10{ padding-left: 0px !important; }
+	.ml-30{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio .monto-tarjeta{ display: inline-block; width: auto;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{ margin-top: 3px !important;}
+	.step-form-elements .tarjetas .radio span.tipo-moneda{ min-width: 200px !important;}
+	.panel-transferencias .panel-group .panel-body .tarjetas .radio label input[type=radio]{ margin-top: -4px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio span.tipo-moneda{ display: inline-block; min-width: 200px; width: 200px;	}
+	.panel-transferencias .panel-group .panel-body .radio span.nrocuenta{ width: 160px; }
+	.panel-transferencias .panel-group .panel-body .radio span.tipo-moneda{ width: 300px; }
+	
+
+	.box-products .det-1 span {
+	  display: inline-block;
+	  margin-top: 30px !important;
+	  width: auto;
+	  margin-left: 80px;
+	  font-size: 1em;
+	}
+
+	.box-products .det-1 span.etiqueta {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  padding-right: 10px; 
+	  width: auto;
+	  margin-left: 0px;
+	  margin-top: 40px !important;
+	}
+
+	.box-products .det-1 span.dato-1 {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  width: auto;
+	  margin-left: 0px;
+	  margin-top: 40px !important;
+	}
+
+	.box-products h1{  
+		margin-top: 0px; 
+		margin-left: 20px !important;
+		font-size: 1em;
+		position: relative;
+		display: block;
+		width: auto;
+		padding-right: 10px;
+	}
+	 
+	.box-products .det-1,
+	.box-products .det-disabled{
+		position: absolute;
+		left: 290px;
+		top:-40px;
+	}
+
+	.vista-detalle .det-1{
+		position: absolute;
+		left: 300px;
+		top:-40px;
+	}
+
+	.box-products h2{  
+		margin-top: 3px;
+		margin-bottom: 5px;
+		margin-left: 20px !important;
+		font-size: 1em;
+		display: block;
+		width: auto;
+		position: absolute;
+	}
+	.box-products .box-products-icon{ zoom:90%; margin-left: 0px; margin-bottom: 10px; }
+	.box-products .col-sm-1{width: auto;}
+
+}
+
+@media (min-width: 1366px){
+	.panel-transferencias .panel-group .panel-heading .data-selected .data .form-group{ width: 100%; display:block; margin-bottom: 0px; }
+	#acciones{position: absolute;right: 5px; top: 15px;}
+	.acciones{position: absolute;right: 0px; top:35px;}
+	.vista-detalle #acciones{position: absolute;right: 5px; top: 0px;}
+	.vista-detalle .acciones{position: absolute;right: 0px; top:45px;}
+	.form-inline .radio input[type="radio"]{ margin-right: 5px !important;}
+	.ml-30{ margin-left: 0px !important; }
+	.panel-transferencias .panel-group .panel-body .radio .monto-tarjeta{ display: inline-block; width: auto;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio label input[type=radio]{ margin-top: 3px !important;}
+	.step-form-elements .tarjetas .radio span.tipo-moneda{ min-width: 200px !important;}
+	.panel-transferencias .panel-group .panel-body .tarjetas .radio label input[type=radio]{ margin-top: -4px !important;}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio{ margin-left: 0px !important; display: block; }
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .radio span.tipo-moneda{ display: inline-block;	}
+	.panel-transferencias .panel-group .panel-body .contenedor-radio .control-group .radio {margin-right: 20px !important;}
+
+	.control-group .radio{ display: inline-block !important; margin-right:30px !important; margin-left: 0px !important;}
+	.control-group {text-align: left!important;}
+	.control-group .pdl-10{ padding-left: 0px !important; }
+	.box-products .det-1 span {
+	  display: inline-block;
+	  margin-top: 30px !important;
+	  width: auto;
+	  margin-left: 80px;
+	  font-size: 1em;
+	}
+
+	.box-products .det-1 span.etiqueta {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  padding-right: 10px; 
+	  width: auto;
+	  margin-left: 20px;
+	  margin-top: 40px !important;
+	}
+
+	.box-products .det-1 span.dato-1 {
+	  display: inline-block;
+	  font-size: 1.2em;
+	  width: auto;
+	  margin-left: 0px;
+	  margin-top: 40px !important;
+	}
+
+	.box-products h1{  
+		margin-top: 0px; 
+		margin-left: 0px !important;
+		font-size: 1.2em;
+		position: relative;
+		display: block;
+		width: auto;
+		padding-right: 10px;
+	}
+	.box-products .det-1{
+		position: absolute;
+		left: 300px;
+		top:-40px;
+	}
+
+
+	.box-products h2{  
+		margin-top: 3px;
+		margin-bottom: 5px;
+		margin-left: 0px !important;
+		font-size: 1.2em;
+		display: block;
+		width: auto;
+		position: absolute;
+	}
+	.box-products .col-sm-1{width: auto;}
+}
+
+input.cheque-gerencia {
+   background-repeat: no-repeat;
+   background-position: right 5px;  
+   padding: 3px 3px 3px 10px !important;
+}
+
+.regio-ancho-padre{
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    /* just for demo */
+    min-width: auto !important;
+	width : 100%;
+	margin-bottom : 1px;
+}
+
+.regio-ancho-padre:after {
+    content: '';
+    width: 100%;
+    font-size: 0;
+    line-height: 0
+}
+
+.generic-content .container-fluid .form-inline .panel-transferencias .panel-body .panel-group .panel .panel-collapse .panel-body .step-form-elements .contenedor-radio .regio-ancho-padre   span.nrocuenta{width:13% !important; display: inline-block;}
+.generic-content .container-fluid .form-inline .panel-transferencias .panel-body .panel-group .panel .panel-collapse .panel-body .step-form-elements .contenedor-radio .regio-ancho-padre  span.titular{width: 30%; display: inline-block;} 
+.generic-content .container-fluid .form-inline .panel-transferencias .panel-body .panel-group .panel .panel-collapse .panel-body .step-form-elements .contenedor-radio .regio-ancho-padre  span.tipo-moneda{width: 10% !important;display: inline-block;}
+.generic-content .container-fluid .form-inline .panel-transferencias .panel-body .panel-group .panel .panel-collapse .panel-body .step-form-elements .contenedor-radio  .regio-ancho-padre span.label-disponible{width: 18% !important; display: inline-block;}
+.generic-content .container-fluid .form-inline .panel-transferencias .panel-body .panel-group .panel .panel-collapse .panel-body .step-form-elements .contenedor-radio  .regio-ancho-padre  span.value-disponible{width: 10% !important; display: inline-block;}  
+/*.regio-email-datos{
+background-color : blue;
+width: 115% !important; 
+display: inline-block;
+padding-right : 5px; 
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}  */
+
+.mi-nuevo-contenedor{
+   //overflow:visible;
+   display: inline-block !important;
+   min-width : 280px;
+}
+.para-span{
+   margin-right : 15px !important;
+   float: left;
+}
+.margen-element{
+   margin-top :2px !important;
+}
+/*@media (min-width: 1024px) and (max-width: 1365px){
+	#nrocuenta2{display: inline-block !important;}
+	#titular2{display: block;}
+	#tipo-moneda2{display: inline-block !important;}
+	#label-disponible2{display:  block !important; margin-right: 3px !important;}	
+	#value-disponible2{display: inline-block !important;}
+}
+*/
+.box-avisos{margin-bottom: 15px;}
+.grafico1{"margin-top:65px; margin-bottom:15px}
+.grafico2{margin-bottom:15px}
+.iconotable{padding-right:0px;}
+.icono-credito{width: 70px; height:70px}
+.icono-cuenta-detalle-03{width: 80; height:80;}

